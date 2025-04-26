@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 .next/
+<<<<<<< HEAD
 .pnp/
 .pnp.js
 
@@ -27,10 +28,21 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.log
+=======
+
+# System files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> 442b9aae (Add .gitignore and remove node_modules, .next, .DS_Store from tracking)
 
 # Environment files
 .env
 .env.*
+<<<<<<< HEAD
 !.env.example
 
 # Local build output
@@ -46,3 +58,12 @@ next-env.d.ts
 .vscode/
 *.swp
 *.swo
+=======
+
+# Local build output
+dist/
+build/
+
+# Misc
+*.log
+>>>>>>> 442b9aae (Add .gitignore and remove node_modules, .next, .DS_Store from tracking)
