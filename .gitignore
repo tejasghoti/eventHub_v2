@@ -3,7 +3,7 @@ node_modules/
 .next/
 <<<<<<< HEAD
 .pnp/
-.pnp.js
+.pnp.js 
 
 # Testing
 /coverage
